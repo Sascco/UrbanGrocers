@@ -70,12 +70,12 @@ def test_create_user_numbers_in_username():
 
 #Prueba número 8
 def test_create_user_no_name_in_username():
-    create_kit_positive(data.kit_body_1[8])
+    create_kit_negative(data.kit_body_1[7])
 
 
 #Prueba número 9
 def test_create_blank_username():
-    create_kit_positive(data.kit_body_1[7])
+    create_kit_negative(data.kit_body_1[8])
 
 
 
