@@ -281,15 +281,6 @@ En el archivo <configuration.py> encontrarás la dirección URL del servidor en 
 
 Adicionalmente, podras identificar las rutas para crear Usuarios y Kits..
 
-
-## Contribuciones
-
-Haz la diferencia en el mundo del software contribuyendo a nuestro proyecto de automatización de pruebas de código abierto. ¡Tu aporte es valioso! 
-
-Contribuciones son siempre bienvenidas.
-
-
-
 ## Creación de Kit
 
 En el archivo ```create_kit_name_kit_test.py``` vas a encontrar el código que se elaboró para automatizar las pruebas.
@@ -298,9 +289,17 @@ Inicialmente, se importa la información del archivo ```sender_stand_request``` 
 
 Se establecen las funciones que se requieren para ejecutar las pruebas automotizadas.
 
-
 ## Creación de Usuario
 
 Se importa la información de los archivos ```configuration```, ```requests``` y ```data```
 
 Están las funciones para crear un usuario, que permite generar el token de autenticación.
+
+
+## Contribuciones
+
+Haz la diferencia en el mundo del software contribuyendo a nuestro proyecto de automatización de pruebas de código abierto. ¡Tu aporte es valioso! 
+
+Contribuciones son siempre bienvenidas.
+
+
