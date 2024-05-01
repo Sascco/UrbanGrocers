@@ -18,8 +18,11 @@ def create_token():
 
 def post_kit(name):
     token = create_token()
-    data.headers["Authorization"] = f"bearer {token}"
+    data_header = f"bearer {token}"
+    #data.headers["Authorization"] = f"bearer {token}"
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_KITS_PATH,
                          # inserta la dirección URL completa
                          json=name,  # inserta el cuerpo de solicitud
-                         headers=data.headers)  # inserta los encabezados
+                         headers=data_header)  # inserta los encabezados
+
+
